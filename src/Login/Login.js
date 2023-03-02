@@ -208,10 +208,10 @@ class Login extends Component {
               ) : null}
             </div>
             <a
-              href={`https://www.launchlab.ai`}
+              href={`https://launchlab-m94e.onrender.com/`}
               className="block text-center bg-gray-100 text-gray-500 text-sm p-3 rounded-b-lg hover:bg-gray-200 cursor-pointer"
             >
-              Back to landing page * Dev edit
+              Back to landing page
             </a>
           </div>
         </div>
