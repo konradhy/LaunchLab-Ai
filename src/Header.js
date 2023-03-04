@@ -99,7 +99,7 @@ class SidebarCompontent extends Component {
               <div className="text-4xl relative font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-600 inline-block">
                 LaunchLab<span className="font-normal "> AI</span>
                 <div className="absolute top-0 ml-3 left-full bg-gradient-to-br from-gray-500 to-gray-500 text-white text-sm px-2 py-0.5 rounded-md font-normal hidden md:flex">
-                  gpt3
+                  GPT-3.5
                 </div>
               </div>
               <div className="hidden md:block text-xl text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-500 inline-block">
@@ -141,7 +141,7 @@ class SidebarCompontent extends Component {
               }}
             >
               <NavLink
-                to="/more"
+                to="/coming-soon"
                 exact
                 tabIndex={-1}
                 onClick={() => (this.props.store.toolsKeyword = "")}
@@ -149,7 +149,7 @@ class SidebarCompontent extends Component {
                 className="text-lg flex py-3 px-6 lg:py-4 lg:px-8 cursor-pointer hover:bg-gray-100 rounded-t-md font-medium transition items-center"
               >
                 <IconFeatures className="w-7 h-7 lg:mr-4 transition" />
-                <div className="hidden lg:block">More</div>
+                <div className="hidden lg:block">Coming Soon</div>
               </NavLink>
             </div>
 

@@ -9,6 +9,7 @@ import jamaicaAi from "./jamaicaAi.js";
 import jamaicaStoryTeller from "./jamaicaStoryTeller.js";
 import cariGoogleAds from "./content/cariGoogleAds";
 import airbnb from "./airbnb";
+import legalStructure from "./law/legalStructure";
 
 const TOOLS = [
   codeInterpret,
@@ -22,6 +23,7 @@ const TOOLS = [
   jamaicaStoryTeller,
   cariGoogleAds,
   airbnb,
+  legalStructure,
 ];
 
 export default TOOLS;

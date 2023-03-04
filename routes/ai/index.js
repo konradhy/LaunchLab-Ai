@@ -25,6 +25,7 @@ app.use("/", require("./patoisTranslator"));
 app.use("/", require("./jamaicaStoryTeller"));
 app.use("/", require("./content/cariGoogleAds"));
 app.use("/", require("./airbnb"));
+app.use("/", require("./law/legalStructure.js"));
 app.use("/", contentFilterCheck);
 app.use("/", creditPayment);
 app.use("/", saveToHistory);
