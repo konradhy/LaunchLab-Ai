@@ -2,10 +2,9 @@
 
 Launch LabAI is an easy-to-use platform that connects to OpenAI's NLM API. This project includes features such as full tracking, authentication, session management, token tracking, and Stripe billing. With a wide variety of AI-powered chatbots to choose from, you can find the perfect solution for your needs.
 
-## Demos:
-https://share.getcloudapp.com/rRu5g2wZ
+## Demos: launchlab-m94e.onrender.com/
 
-https://share.getcloudapp.com/Z4umn099
+Please allow demo server up to one minute to reboot after visiting the link. 
 
 
 ## Roadmap:
