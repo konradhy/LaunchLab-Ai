@@ -1,7 +1,7 @@
 import { ViewListIcon } from "@heroicons/react/solid";
 
 const obj = {
-  title: "STVE the Jamaican AI ",
+  title: "STVE the Jamaican Tourist Guide ",
   desc: "Ask any question about Jamaica",
   category: "Content",
   Icon: ViewListIcon,
@@ -15,8 +15,8 @@ const obj = {
   api: "/ai/personal/jamaicanAi",
 
   output: {
-    title: "STVE the Jamaican AI",
-    desc: "Why pree?",
+    title: "STVE the Jamaican  Tourist Guide",
+    desc: "Tell me what you want to do in Jamaica and I will tell you where to go",
     Icon: false,
     color: "blue",
   },
@@ -24,30 +24,28 @@ const obj = {
   prompts: [
     {
       title: "Entry Text",
-      desc: "Wah you wah ask?",
+      desc: "What is your question?",
       // n: 1,
       prompts: [
         {
-          title: "Content",
+          title: "Question",
           attr: "content",
           value: "",
-          placeholder: "What is your name...",
-          label: "",
+          placeholder: "I want to go to the beach",
+          label: "stargazing, beaches, horseback riding, etc.",
           type: "textarea",
           maxLength: 600,
           // max: 100,
           min: 3,
           required: true,
           error: "",
-          example: "Wah you name?",
+          example: "horseback riding",
         },
       ],
       example: {
         // output: "",
         outputs: [
-          "The sun is very old, over 4.5 billion years",
-          "At 10,000 degrees, sun is also very hot",
-          "Gasses called coronal mass ejections erupt from the sun",
+          "Ah, horseback riding! Jamaica has some of the most scenic trails for horseback riding. One of the best places for horseback riding is at the Half Moon Equestrian Centre in Montego Bay. You can ride the horses on the beach and through the forest on a guided tour. It's a great experience. Trust mi, you'll love it!",
         ],
         // Icon: RefreshIcon,
         color: "blue",

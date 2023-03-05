@@ -1,5 +1,5 @@
 const express = require("express");
-const openai = require("../middlewares/openai");
+const { openai } = require("../middlewares/openai");
 
 let app = express.Router();
 

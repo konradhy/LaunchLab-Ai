@@ -1,5 +1,5 @@
 const express = require("express");
-const { openaiAPI } = require("../../middlewares/openai");
+const { openaiApi } = require("../../middlewares/openai");
 
 let app = express.Router();
 
@@ -12,7 +12,7 @@ app.post("/law/legalStructure", async (req, res, next) => {
     let inputRaw = `${(content, employees, revenue, name, industry, location)}`; // here is where people enter stuff
     prompt += inputRaw;
 
-    const completion = await openaiAPI.createChatCompletion({
+    const completion = await openaiApi.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages: [
         {
@@ -85,7 +85,7 @@ app.post("/law/legalStructure", async (req, res, next) => {
       max_tokens: 2000,
     });
 
-    let output = `${completion.data.choices[0].message.content}`;
+    let output = ` ${completion.data.choices[0].message.content}`;
     console.log(output);
 
     // remove the first character from output

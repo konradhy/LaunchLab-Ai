@@ -5,10 +5,9 @@ import intro from "./intro";
 import helloworld from "./helloworld";
 import example from "./example";
 import patoisTranslator from "./patoisTranslator";
-import jamaicaAi from "./jamaicaAi.js";
-import jamaicaStoryTeller from "./jamaicaStoryTeller.js";
-import cariGoogleAds from "./content/cariGoogleAds";
-import airbnb from "./airbnb";
+import jamaicaAi from "./jamaicaAi";
+
+import airbnb from "./airbnb"; //under constrution
 import legalStructure from "./law/legalStructure";
 
 const TOOLS = [
@@ -16,13 +15,9 @@ const TOOLS = [
   intro,
   jobad,
   summarize,
-  helloworld,
-  example,
+
   jamaicaAi,
   patoisTranslator,
-  jamaicaStoryTeller,
-  cariGoogleAds,
-  airbnb,
   legalStructure,
 ];
 
