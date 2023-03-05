@@ -3,8 +3,8 @@
 A GPT3 powered platform with several carefully designed Ai chatbots optimized for scenarios that range from tour guides to legal chatbots. Prompts were engineered by leveraging a variety of techniques including Few Shot, Chain-of-Thought, and Self-Ask. Engines and models used include GPT-3 (Curie, Babbage and DaVinci), GPT-3.5, and text-moderation. The project has tracking, authentication, session management, token management, and Stripe billing all wrapped into a sleek interface. Technologies used include: React, Axios, Debounce, Express, Express-rate-limit, JsonWebTokens, MobX, Openai-api, Stripe, Styled-components, Tailwindcss.
 
 
-## Demos: launchlab-m94e.onrender.com/
-
+## Demos: 
+launchlab-m94e.onrender.com/
 Please allow demo server up to one minute to reboot after visiting the link. 
 
 
