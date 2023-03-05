@@ -4,7 +4,7 @@ A GPT3 powered platform with several carefully designed Ai chatbots optimized fo
 
 
 ## Demos: 
-launchlab-m94e.onrender.com/
+[launchlab-m94e.onrender.com/](url)
 Please allow demo server up to one minute to reboot after visiting the link. 
 
 
